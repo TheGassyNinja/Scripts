@@ -6,7 +6,7 @@ echo $ACSTATUS
 
 if [ "$ACSTATUS" == "off-line" ];
 	then
-		play -q -v 3 ~/Scripts/Sounds/oh-hell-no.mp3 & notify-send -w "OFF-LINE!!!!"
+		mpg123 -q ~/Scripts/Sounds/oh-hell-no.mp3 # & notify-send -w "OFF-LINE!!!!"
 
 fi
 echo "END OF LINE"
