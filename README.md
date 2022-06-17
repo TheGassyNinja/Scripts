@@ -1,6 +1,6 @@
 # Scripts
 # adapter.sh  
-# 	 acpi awk (Sox)play
+# 	 acpi awk mpg123 #Previously (Sox)play
 # 
 # startup.sh
 #	picom nitrogen polybar xset sleep
@@ -12,5 +12,5 @@
 #	rofi
 #
 # R2.sh
-#	shuf (Sox)play alsa
+#	shuf mpg123 #Previously (Sox)play alsa
 
