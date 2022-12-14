@@ -1,0 +1,43 @@
+#!/usr/bin/env sh
+
+# Back-up List
+# ~/.config
+# ~/Notes
+# ~/Scripts
+# ~/Git/configs
+# ~/Git/Wallpapers
+# ~/Scripts
+############################   .config     ##########
+ mkdir ~/Git/temp
+ cp -r ~/.config ~/Git/temp
+ cd ~/Git/temp/.config
+ rm -rf .git mutt msmtp youtube-viewer kdeglobals kdenlive-layoutsrc kdenliverc knfsshare QtProject.conf gh gtk-3.0 gtk-4.0 BraveSoftware
+ cd ~/Git/temp && cp -r .config ~/Git/
+ cd ~/Git && rm -rf temp
+
+###############################################################
+cp -r ~/py-walpapers ~/Wallpapers 
+
+#########
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
